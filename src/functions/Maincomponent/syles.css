@@ -1,0 +1,36 @@
+.flex_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 3rem;
+}
+.track_crypto_heading,.real_time_heading{
+margin: 0;
+font-size: 6.5rem;
+
+}
+.track_crypto_heading{
+    color: var(--white);
+ -webkit-text-stroke-width:3px;
+    -webkit-text-stroke-color:var(--white); 
+
+}
+.track_crypto_heading:hover{
+    color:black;
+    --webkit-text-stroke-color:var(--white); 
+    transition: all 0.3s;
+}
+.real_time_heading{
+    color:var(--blue);
+}
+.into-text{
+    font-size: 1rem;
+    color: var(--grey);
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1.5rem;
+    margin-top: 2rem;
+}
