@@ -34,3 +34,85 @@ font-size: 6.5rem;
     gap:1.5rem;
     margin-top: 2rem;
 }
+.phone-container{
+    width:45%;
+    position: relative;
+    padding:1rem;
+
+}
+.phone{
+    position:absolute;
+    z-index: 70;
+ 
+      min-width: 300px;
+    width:50%;
+    right: 0;
+}
+.gradient{
+    position: absolute;
+    min-width: 250px;
+    width:40%;
+    top: 8rem;
+    right:0;
+}
+@media only screen and (max-width:1250px){
+.track_crypto_heading,.real_time_heading{
+margin: 0;
+font-size: 5rem;
+
+}
+}
+@media only screen and (max-width:1000px){
+
+.phone{
+    position:absolute;
+    z-index: 70;
+ 
+      min-width: 250px;
+    width:50%;
+}
+.gradient{
+    position: absolute;
+    min-width: 200px;
+    width:40%;
+    top: 6rem;
+}
+}
+@media only screen and (max-width:840px){
+    .flex_info{
+        flex-direction: column;
+
+    }
+.phone-container{
+  display: block;
+  margin: auto;
+  margin-top:3rem ;
+
+}
+
+.phone{
+  left :-2rem;
+ 
+ 
+
+}
+.gradient{
+   left:25%;
+}
+.main_left{
+    width: 100%;
+}
+.track_crypto_heading,.real_time_heading{
+    text-align: center;
+    font-size: 3rem;
+}
+.track_crypto_heading{
+    -webkit-text-stroke-width: 1px;
+}
+.info-text{
+text-align: center;
+}
+.btn-flex{
+    justify-content: center;
+}
+}
