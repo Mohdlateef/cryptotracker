@@ -39,20 +39,20 @@ export default function TabsComponent({ coins }) {
 
         <TabPanel value="grid">
           <div className="grid-flex">
-            {coins.map((coin, i) => {
+            {coins&&(coins.map((coin, i) => {
               return (
               <Grid coin={coin} key={i}/>
               );
-            })}
+            }))}
           </div>
         </TabPanel>
         <TabPanel value="list">
           <table className="list-table">
-            {coins.map((coin, i) => {
+            {coins&&(coins.map((coin, i) => {
               return (
                 <List coin={coin} key={i}/>
               );
-            })}
+            }))}
           </table>
         </TabPanel>
       </TabContext>
