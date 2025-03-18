@@ -4,4 +4,4 @@ Crypto Tracker is a web application that provides real-time tracking of cryptocu
 
 🚀 Features
 📈 Live price updates for popular cryptocurrencies
-📊 Interactive charts for historical data analysis
+📊 Interactive charts for historical data a
